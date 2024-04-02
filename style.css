@@ -1,0 +1,74 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9; /* Light grey background */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+  background-color: #333;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.profile-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-size: 45px;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  margin-bottom: 0;
+}
+
+section {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* You can add media queries here for further mobile responsiveness */
